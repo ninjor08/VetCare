@@ -1,0 +1,105 @@
+usuario: Dario
+correo: dario1@gmail.com
+clave: 123456
+
+usuario: Alex
+correo: prueba01@gmail.com
+clave: 12345
+
+
+Paso 1. Abre la terminal de VS Code
+Ve a Terminal → New Terminal.
+
+Por ejemplo, aparecerá:
+PS C:\Users\Estudiante>
+
+
+Paso 2. Ingresa a la carpeta del proyecto
+Supongamos que descargaste el ZIP, lo extrajiste y la carpeta VetCare-main está en Descargas.
+
+Escribe:
+cd "$HOME\Downloads\VetCare-main"
+
+
+Presiona Enter.
+
+La terminal debería mostrar algo parecido a:
+PS C:\Users\Estudiante\Downloads\VetCare-main>
+
+
+Eso significa que ya estás dentro de la carpeta.
+Paso 3. Comprueba que estás en la carpeta correcta
+Escribe:
+dir
+
+
+Deberías encontrar archivos como:
+- pom.xml
+- mvnw.cmd
+- src
+- .mvn
+Si aparecen, estás en la ubicación correcta.
+Paso 4. Ejecuta Spring Boot
+Ahora escribe:
+.\mvnw.cmd spring-boot:run
+
+
+
+
+Para ejecutar 
+Abrir terminal 
+
+Paso 2. Abrir la terminal de VS Code
+Selecciona Terminal → New Terminal.
+
+Deberías ver una ruta parecida a esta:
+PS C:\Users\Estudiante\Downloads\VetCare-main>
+
+
+.\mvnw.cmd spring-boot:run
+
+Perfecto. Si ya ingresaste a la carpeta VetCare-main desde la terminal de VS Code, ahora vamos a ejecutar tu proyecto Spring Boot.
+Paso 1. Ejecutar el proyecto
+En la terminal de VS Code, escribe:
+.\mvnw.cmd spring-boot:run
+
+
+Presiona Enter.
+Paso 2. Esperar a que Spring Boot inicie
+La primera vez puede tardar un poco porque Maven necesita descargar las dependencias.
+
+Si todo funciona, aparecerá un mensaje parecido a:
+Tomcat started on port 8080
+Started VetcareApplication
+
+
+No cierres la terminal, porque ahí estará ejecutándose el servidor.
+Paso 3. Abrir VetCare en el navegador
+Abre Chrome o Edge e ingresa:
+
+**http://localhost:8080/registro**
+
+Debería aparecer la página de registro de usuarios de VetCare.
+
+Después podrás iniciar sesión y acceder a la gestión de mascotas.
+Si aparece un error
+No modifiques el código todavía. Envíame una captura de la terminal para identificar qué está fallando.
+
+Primero ejecuta .\mvnw.cmd spring-boot:run y dime qué mensaje aparece.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
